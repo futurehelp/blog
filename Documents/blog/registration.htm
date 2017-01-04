@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+      <link href="style/style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:regular,bold" type="text/css" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/custom.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+<script src="js/form-validation.js"></script>
+        
+
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>Trill Blog</title>
+		<link rel="stylesheet" href="css/960.css" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="css/template.css" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="css/colour.css" type="text/css" media="screen" charset="utf-8" />
+
+
+		<!--[if IE]><![if gte IE 6]><![endif]-->
+		<script src="js/glow/1.7.0/core/core.js" type="text/javascript"></script>
+		<script src="js/glow/1.7.0/widgets/widgets.js" type="text/javascript"></script>
+		<link href="js/glow/1.7.0/widgets/widgets.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript">
+			glow.ready(function(){
+				new glow.widgets.Sortable(
+					'#content .grid_5, #content .grid_6',
+					{
+						draggableOptions : {
+							handle : 'h2'
+						}
+					}
+				);
+			});
+		</script>
+		<!--[if IE]><![endif]><![endif]-->
+	</head>
+	<body>
+
+		<h1 id="head">Trill Blog</h1>
+		
+		<ul id="navigation">
+			<li><span class="active">Profile</span></li>
+<li><a href="feed.php">Feeds</a></li>
+			<li><a href="posts.php">Posts</a></li>
+			<li><a href="messages.php">Messages</a></li>
+			<li><a href="#">Search <input type="text" name="keyword" value=""></a></li>
+		</ul>
+
+			<div id="content" class="container_16 clearfix">
+				
+				<div class="container_16">
+					<div class="box">
+						<h2>Register</h2>
+						<div class="utils">
+							<a href="#">View More</a>
+						</div><FORM name="registration" method="post" action="register_send.php" > 
+ 
+<DIV class="block-start"><TABLE> 
+<CAPTION><DIV class="cap-left"><DIV class="cap-right">Registration&nbsp;</DIV></DIV></CAPTION> 
+	<TBODY><TR> 
+		<TD >Please note that you will need to enter a valid e-mail address before your account is activated. The administrator will review your account and if approved you will receive an e-mail at the address you specified.</SPAN></TD> 
+	</TR> 
+	<TR> 
+		<TD >The items marked with * are required profile fields and need to be filled out.</SPAN></TD> 
+	</TR> 
+<table>
+                <tr>
+                    <td><label for="firstName">First Name</label></td>
+                    <td><input type="text" id="firstName" name="firstName" /></td>
+                </tr>
+                <tr>
+                    <td><label for="lastName">Last Name</label></td>
+                    <td><input type="text" id="lastName" name="lastName" /></td>
+                </tr>
+                <tr>
+                    <td><label for="emailAddress">E-mail</label></td>
+                    <td><input type="text" id="emailAddress" name="emailAddress" /></td>
+                </tr>
+                <tr>
+                    <td><label for="username">Username</label></td>
+                    <td><input type="text" id="username" name="username" /></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" id="password" name="password" /></td>
+                </tr>
+                <tr>
+                    <td><label for="phoneNumber">Phone Number</label></td>
+                    <td><input type="text" id="phoneNumber" name="phoneNumber" />(XXX-YYY-ZZZZ</td>
+                </tr>
+            </table>
+            <input type="submit" name="submit" id="submit" value="Sign Up!" />
+
+</FORM> 
+
+					</div>
+					
+				</div>
+				
+		<div id="foot">
+			
+		</div>
+	</body>
+</html>
